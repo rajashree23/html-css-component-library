@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component Library</title>
+    <link href="../styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Rajashree's component library</h1>
+    <p>
+      I am attending neog.camp and I want to make a library which would make all
+      my projects look good and consistent.
+    </p>
+
+    <hr />
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest</h2>
+    <p>
+      Let me show you the normal text. This is free flowing and will wrap at the
+      end lik
+    </p>
+
+    <p>This paragraph will have a <strong>bold</strong> text</p>
+    <small>This is relatively smaller text</small>
+    <hr />
+    <h2>@container</h2>
+    <h3>fluid container</h3>
+    <div class="container">
+      This is a fluid container and and it will go till the end of the page
+    </div>
+
+    <h3>center container</h3>
+    <div class="container container-center">
+      This is a centered container and and it will go till the specified width
+    </div>
+    <hr />
+    <h2>@links</h2>
+
+    <a href="/" class="link link-primary">Primary link</a>
+    <a href="/" class="link link-secondary">Secondary link</a>
+
+    <hr />
+
+    <h2>@list</h2>
+    <h3>unordered list</h3>
+    <p>This list will not have bullet</p>
+    <ul class="list-non-bullet">
+      <li>Item One</li>
+      <li>tem Two</li>
+      <li>Item Three</li>
+    </ul>
+
+    <h3>unordered inline list</h3>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">Inline Item One</li>
+      <li class="list-item-inline">InlineItem Two</li>
+      <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+      <li>Milk</li>
+      <li>Eggs</li>
+      <li>Bread</li>
+    </ol>
+    <hr />
+    <h2>@nav</h2>
+    <nav class="conatiner navigation">
+      <div class="nav-brand">iAmBrand</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">products</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">about</a>
+        </li>
+      </ul>
+    </nav>
+
+    <hr />
+    <h2>@header</h2>
+    <header class="hero">
+      <img src="./images/hero.svg" class="hero-img" />
+      <!-- todo: update roles with animation -->
+      <h1 class="hero-heading">
+        I am Rajashree Parhi the
+        <span style="color: var(--primary-color)">Developer</span>
+      </h1>
+    </header>
+
+    <hr />
+    <h2>@section</h2>
+    <section class="section">
+      <div class="container container-center">
+        <h1>white section</h1>
+        <p>This will have white background</p>
+      </div>
+    </section>
+    <section class="section offwhite">
+      <div class="container container-center">
+        <h1>off white section</h1>
+        <p>This will have grey section</p>
+      </div>
+    </section>
+    <hr />
+    <h2>@footer</h2>
+    <footer class="footer">
+      <div class="footer-header">Some small heading inside</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="/">socialOne</a></li>
+        <li class="list-item-inline"><a class="link" href="/">socialTwo</a></li>
+        <li class="list-item-inline"><a class="link" href="/">socialThree</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
